@@ -1,0 +1,27 @@
+br glavna ._
+	string dan ;
+	ucitaj >> dan ;
+
+	prekidac ( dan ) ._
+		slucaj "ponedeljak"
+			stampaj << "ponedeljak-je" ;
+			zaustavi ;
+		slucaj "utorak"
+			stampaj << "utorak-je" ;
+			zaustavi ;
+		slucaj "sreda"
+			stampaj << "sreda-je" ;
+			zaustavi ;
+		slucaj "cetvrtak"
+			stampaj << "cetvrtak-je" ;
+			zaustavi ;
+		slucaj "petak"
+			stampaj << "petak-je" ;
+			zaustavi ;
+		opsti
+			stampaj << "uneli-ste-pogresan-dan" ;
+			zaustavi ;
+	_.
+
+	vrati 0 ;
+_.

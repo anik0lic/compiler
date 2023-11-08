@@ -1,0 +1,14 @@
+br glavna ._
+	string<> a = {3,2,8,1,10} ;
+	br max = a[0] ;
+
+	za ( br i = 1 ; i < a.duzina() - 1 ; i ++ ) ._
+		ako ( a[i] > max ) ._
+			max = a[i] ;
+		_.
+	_.
+
+	stampaj << max ;
+
+	vrati 0 ;
+_.

@@ -1,0 +1,18 @@
+br glavna ._
+	string resenje = "" ;
+	string ulaz ;
+	logika l ;
+
+	br a = 10 ;
+
+	radi ._
+		ucitaj >> ulaz ;
+		resenje = resenje + ulaz ;
+		a -- ;
+		l = netacno ;
+	_. dok ( a > 0 ) ;
+
+	stampaj << resenje ;
+
+	vrati 0 ;
+_.

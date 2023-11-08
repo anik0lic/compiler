@@ -1,0 +1,8 @@
+br glavna ._
+	karakter a = 'w' ;
+	karakter b = 'e' ;
+
+	( stampaj << "isti-su" ) ako ( a == b ) onda ( stampaj << "nisu-isti" ) ;
+
+	vrati 0 ;
+_.

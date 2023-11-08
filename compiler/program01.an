@@ -1,0 +1,16 @@
+br glavna ._
+	br a = 3 ;
+	dec b = 3.14 ;
+    dec c = -0.123 ;
+	br c = a + b ;
+
+	ako ( c % 2 == 0 ) ._
+		stampaj << "paran-je" ;
+	_. osim-ako ( c / 2 == 1 )._
+       		stampaj << "elseif" ;
+    _. onda ._
+		stampaj << "onda" ;
+	_.
+
+	vrati 0 ;
+_.
