@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String code = FileLoader.getFileLoader().load("program05.an");
+        String code = FileLoader.getFileLoader().load("program04.an");
         System.out.println(code);
 
         List<Token> tokens = Lexer.getLexer().lex(code);
